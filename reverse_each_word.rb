@@ -8,7 +8,7 @@ def reverse_each_word(str)
 newarr.join(" ")
 end
 
-def reverse_each_word2(str)
+def reverse_each_word(str)
 splitted = str.split(" ")
  newarr = []
   splitted.collect do |word|   
